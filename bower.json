@@ -6,7 +6,7 @@
     "Elysia Nason <elysia.avery@gmail.com>"
   ],
   "license": "ISC",
-  "homepage": "",
+  "homepage": "https://github.com/ElysiaAvery/angular-skeleton",
   "ignore": [
     "**/.*",
     "node_modules",

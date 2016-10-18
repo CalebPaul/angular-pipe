@@ -11,6 +11,14 @@ import { Task } from './task.model';
         <input [(ngModel)]="childSelectedTask.description">
       </div>
       <div>
+        <label>Enter Category:</label>
+        <form>
+          <input [(ngModel)]="childSelectedTask.category" type="radio" name="category" value="home"> Home<br>
+          <input [(ngModel)]="childSelectedTask.category" type="radio" name="category" value="hobby"> Hobby<br>
+          <input [(ngModel)]="childSelectedTask.category" type="radio" name="category" value="work"> Work
+        </form>
+      </div>
+      <div>
         <label>Enter Task ID:</label>
         <input [(ngModel)]="childSelectedTask.id">
         <button (click)="doneClicked()">Done</button>
